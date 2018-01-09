@@ -85,7 +85,6 @@ body{
 	background-color: #236549;
 }
 .news_cont{
-	height: 50%;
 	color: black;
 	font-size: 16px;
 	font-size: 1em;
@@ -98,12 +97,12 @@ body{
 /* Create three equal columns that floats next to each other */
 .column1 {
     float: left;
-    width: 70%;
+    width: 50%;
     height: 100%;
 }
 .column2 {
     float: left;
-    width: 30%;
+    width: 50%;
     height:100%;
 }
 .columnC{
@@ -116,7 +115,6 @@ body{
     content: "";
     display: table;
     clear: both;
-    height:100%;
 }
 /* Clear floats after the columns */
 .rowC:after {
