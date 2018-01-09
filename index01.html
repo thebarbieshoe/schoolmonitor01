@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="shortcut icon" href="http://holyspirit-indy.org/sites/default/files/holyspirit_favicon.ico" type="image/vnd.microsoft.icon" />
+<!--
+ 462 is number of seconds that the video lasts/page will refresh every 7:42 minutes
+-->
+<meta http-equiv="refresh" content="462">
+<!-- responsive design -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- end responsive design
+ -->
+<link href="style.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Roboto:900" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:800" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="script.js"></script>
+<title>Welcome to Holy Spirit Catholic Church</title>
+</head>
+
+
+<body>
+<div class="mySlides">
+<!--- Beginning of SLIDE ONE -->
+
+<div class="page_cont">
+	<!-- PAGE CONTAINER -->
+
+		<div class="row">
+
+		<!-- PAGE COlUMN A 
+		will include intro welcome_cont, news_cont, time_cont, & masstimes_cont -->
+
+			<div class="column1">
+				<div class="welcome_cont">
+					Welcome to 
+					<h1>Holy Spirit</h1> 
+					<h3>Catholic Church</h3>
+				</div>
+				<div class="news_cont">
+					<h2>meep meep</h2>
+					<h1>Beep beep</h1>
+					<blockquote>
+						<p>
+						Hannah rose after a meal at Shiloh,</BR>
+						and presented herself before the LORD;</BR>
+						at the time, Eli the priest was sitting on a chair</BR>
+						near the doorpost of the LORD's temple.</BR>
+						In her bitterness she prayed to the LORD, weeping copiously,</BR>
+						and she made a vow, promising: "O LORD of hosts,</BR>
+						if you look with pity on the misery of your handmaid,</BR>
+						if you remember me and do not forget me,</BR>
+						if you give your handmaid a male child,</BR>
+						I will give him to the LORD for as long as he lives;</BR>
+						neither wine nor liquor shall he drink,</BR>
+						and no razor shall ever touch his head."</BR>
+						As she remained long at prayer before the LORD,</BR>
+						</p>
+					</blockquote>
+				</div>
+
+
+					<div class="rowC"> 
+						<div class="bottom_cont">
+					
+							<div class="columnC">
+								<div class="time">
+									<h3><script type="text/javascript">
+											tday=new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
+											tmonth=new Array("January","February","March","April","May","June","July","August","September","October","November","December");
+
+											function GetClock(){
+											var d=new Date();
+											var nday=d.getDay(),nmonth=d.getMonth(),ndate=d.getDate(),nyear=d.getFullYear();
+											var nhour=d.getHours(),nmin=d.getMinutes(),ap;
+											if(nhour==0){ap=" AM";nhour=12;}
+											else if(nhour<12){ap=" AM";}
+											else if(nhour==12){ap=" PM";}
+											else if(nhour>12){ap=" PM";nhour-=12;}
+
+											if(nmin<=9) nmin="0"+nmin;
+
+											document.getElementById('clockbox').innerHTML=""+tday[nday]+", "+tmonth[nmonth]+" "+ndate+", "+nyear+" "+nhour+":"+nmin+ap+"";
+											}
+
+											window.onload=function(){
+											GetClock();
+											setInterval(GetClock,1000);
+											}
+										</script>
+
+									<div id="clockbox"></div>
+									</h3>
+								</div>
+							</div>
+
+
+							<div class="columnC">
+								<div class="mastimes_cont">
+									<h2>Mass times</h2> <br>
+									Saturday - 5:30 pm <br>
+									Sunday - 7:30 am, 9 am, 10:30am, Noon & 1:45 (Spanish) <br>
+									Confessions - Saturday @ 4pm <br>
+								</div>
+							</div>
+						</div>
+					<!--</div> -->
+			</div>
+		</div>
+
+
+
+
+				<!-- PAGE COlUMN B for image -->
+				<div class="column2">
+					<div class="img_cont">
+						<img src="http://display.holyspirit-indy.org/churchmonitor01/welcomeimg.png" height="100%">
+					</div>
+				</div>
+
+	</div>
+</div>
+<!--- END of SLIDE ONE -->
+</div>
+
+<!--- Beginning of photo slides -->
+<center>
+<div class="mySlides"><img class="mySlidez" src="/churchmonitor01/images/slideshow01.jpg" width=100%></div>
+<div class="mySlides"><img class="mySlidez" src="/churchmonitor01/images/slideshow02.jpg" width=100%></div>
+<div class="mySlides"><img class="mySlidez" src="/churchmonitor01/images/slideshow03.jpg" width=100%></div>
+<div class="mySlides"><img class="mySlidez" src="/churchmonitor01/images/slideshow04.jpg" width=100%></div>
+<div class="mySlides"><img class="mySlidez" src="/churchmonitor01/images/slideshow05.jpg" width=100%></div>
+<div class="mySlides"><img class="mySlidez" src="/churchmonitor01/images/slideshow06.jpg" width=100%></div>
+<div class="mySlides"><img class="mySlidez" src="/churchmonitor01/images/slideshow06.jpg" width=100%></div>
+</center>
+
+</body>
+</html>
