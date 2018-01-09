@@ -34,6 +34,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	font-size: 100%; /* Makes the font go to 16 pixels */
 }
 ol, ul {
 	list-style: none;
@@ -52,6 +53,29 @@ table {
 }
 body{
 	background: #CFDAB1;
+}
+h1 {
+	font-family: 'Merriweather', serif;
+	font-size:30pt;
+	text-transform: uppercase;
+
+}
+h2 {
+	font-family: 'Merriweather', serif;
+	font-size:20pt;
+	text-transform: uppercase;
+}
+, h3{
+	font-family: 'Poppins', sans-serif;
+}
+p{
+	font-size: 16px;
+	font-size: 1em;
+	line-height: 1.75;
+	font-family: 'OpenSans', Arial, sans-serif;
+	letter-spacing: -0.01em;
+	margin: 1em auto;
+}
 }
 .mySlides {
 	display:none;
@@ -75,34 +99,21 @@ body{
 }
 .bottom_cont{
 	color: black;
-	font-size: 16px;
-	font-size: 1em;
-	line-height: 1.75;
-	font-family: 'OpenSans', Arial, sans-serif;
-	letter-spacing: -0.01em;
-	margin: 1em auto;
 	height: 30%;
 	background-color: #236549;
 }
 .news_cont{
-	color: black;
-	font-size: 16px;
-	font-size: 1em;
-	line-height: 1.75;
-	font-family: 'OpenSans', Arial, sans-serif;
-	letter-spacing: -0.01em;
-	margin: 0;
 	background-color: #A9CFDC;
 }
 /* Create three equal columns that floats next to each other */
 .column1 {
     float: left;
-    width: 50%;
+    width: 25%;
     height: 100%;
 }
 .column2 {
     float: left;
-    width: 50%;
+    width: 75%;
     height:100%;
 }
 .columnC{
@@ -126,8 +137,6 @@ body{
 	height: 20%;
 	color: #CFDAB1;
 	background-color: #00553E;
-	font-size: 16px;
-	font-family: 'Roboto', sans-serif;
 	letter-spacing: .01em;
 	margin: 0;
 	text-align: center;
