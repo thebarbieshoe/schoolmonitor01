@@ -110,12 +110,12 @@ p{
 /* Create three equal columns that floats next to each other */
 .column1 {
     float: left;
-    width: 25%;
+    width: 40%;
     height: 100%;
 }
 .column2 {
     float: left;
-    width: 75%;
+    width: 60%;
     height:100%;
 }
 .columnC{
